@@ -1,0 +1,67 @@
+.botaoProduto {
+    min-width: 150px;
+    min-height: 70px;
+    text-align: center;
+    cursor: pointer;
+    background-color:  rgb(70, 153, 179);
+    border-radius: 8px;
+    border: 0;
+    padding: 12px 24px;
+    font-weight: 800;
+    box-sizing: content-box;
+    margin: 10px;
+}
+
+.botaoComprar {
+    min-width: 370px;
+    min-height: 120px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(70, 153, 179);
+    border-radius: 8px;
+    border: 0;
+    padding: 12px 24px;
+    font-weight: 1000;
+    box-sizing: content-box;
+    margin: 10px;
+    
+}
+
+.botoesdisplay {
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+.imagem:hover .produto1,
+.imagem:hover .cart2, 
+.imagem:hover .cart3 {
+
+  bottom: 100px;
+  opacity: 1;
+  padding: 10px;
+  text-decoration: none;
+
+} 
+
+
+
+table td {
+    border: solid 1px black;
+}
+
+.titulo {
+    margin-top: 70px;
+    text-align: center;
+
+}
+
+.containerinterno {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    padding-bottom: 100px;
+}
+

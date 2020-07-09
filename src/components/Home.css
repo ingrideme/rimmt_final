@@ -1,0 +1,44 @@
+.containerdocard {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+
+.imagem {
+  margin-left: 20px;
+  margin-right: 20px;
+  position: relative;
+  overflow: hidden;
+  max-width: 350px;
+
+}
+
+.addCarrinho {
+  width: 100%;
+  position: absolute;
+  background-color: darkgrey;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+.imagem:hover .cart1,
+.imagem:hover .cart2, 
+.imagem:hover .cart3 {
+  
+  bottom: 100px;
+  opacity: 1;
+  padding: 10px;
+  text-decoration: none;
+
+} 
+
+h3 {
+  color: rgb(70, 153, 179);
+}
